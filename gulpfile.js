@@ -223,7 +223,7 @@ function startBrowserSync() {
 
   var options = {
     proxy: 'localhost:' + port,
-    port: 3000,
+    port: 4900,
     files: [config.public + '**/*.*'],
     injectChanges: true,
     logFileChanges: true,
